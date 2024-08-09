@@ -1,0 +1,27 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+    @font-face {
+      font-family: 'opendyslexic';
+      src: url(https://zanelf.neocities.org/opendyslexic/OpenDyslexic-Regular.otf);
+    }
+body {
+  height: 100%; 
+  width:100%;     
+  overflow: hidden;
+  background-color: #FF5E6C;
+  color: black;
+  font-family: 'opendyslexic';
+}
+
+div {
+  background-color:#FFB8BE;
+  margin: auto;
+  width: 85%;
+  height: 90%;
+  text-align: center;
+}
+
+footer{
+  background-color: #dd5a65;
+}
