@@ -25,3 +25,10 @@ div {
 footer{
   background-color: #dd5a65;
 }
+
+div.front{
+  position: relative;
+  margin: auto;
+  padding: 5px;
+  background-color: aqua;
+}
