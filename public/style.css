@@ -9,13 +9,12 @@ body {
   height: 100%; 
   width:100%;     
   overflow: hidden;
-  background-color: #FF5E6C;
+  background-color: #8BB3F9;
   color: black;
   font-family: 'opendyslexic';
 }
 
 div {
-  background-color:#FFB8BE;
   margin: auto;
   width: 85%;
   height: 90%;
@@ -23,12 +22,20 @@ div {
 }
 
 footer{
-  background-color: #dd5a65;
+  background-color: #F787B2;
 }
 
-div.front{
+div.cabecera{
   position: relative;
+  display: flex;
   margin: auto;
   padding: 5px;
-  background-color: aqua;
+  align-items: flex-start;
+  background-color: #5B412A ;
+}
+
+img.logo{
+  width: 289px;height: 239px;
+  
+  margin-right: 10px;
 }
